@@ -26,13 +26,11 @@ void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 
 void quick_sort(int *array, size_t size);
-void recursive_quick_sort(int *array, int low, int high, size_t size);
-int partition(int *array, int low, int high, size_t size);
-void swap(int *a, int *b);
-void print_sort(int *array, size_t size);
+void recursive_quick_sort(int *array, int start, int end, size_t size);
+int lomuto_partition(int *array, int start, int end, size_t size);
+void perform_swap(int *a, int *b);
+void print_array_after_swap(int *array, size_t size);
 
-void print_sort(int array[], size_t size, int init);
-size_t partition(int array[], size_t size);
-void swap(int *a, int *b);
+
 
 #endif
