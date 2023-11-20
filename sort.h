@@ -31,6 +31,6 @@ int lomuto_partition(int *array, int start, int end, size_t size);
 void perform_swap(int *a, int *b);
 void print_array_after_swap(int *array, size_t size);
 
-
+void shell_sort(int *array, size_t size);
 
 #endif
